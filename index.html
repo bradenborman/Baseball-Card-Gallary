@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Braden's Baseball Card Collection</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style>
+  body {
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  margin: 12px 0;
+}
+
+.row {
+	margin-bottom: 38px;
+}
+
+/** Change size of card here **/
+.card-container {
+ margin: auto;
+  cursor: pointer;
+  height: 42vh;
+  perspective: 600;
+  position: relative;
+  width: 25vh;
+}
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card img {
+  height: 100%;
+  width: 100%;
+}
+
+.card:hover  {
+  transform: rotateY(180deg);
+}
+
+
+.hover {
+  transform: rotateY(180deg);
+}
+
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.card .back {
+  background: #eaeaed;
+  color: #0087cc;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+  </style>
+  </head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="card-container">
+		  <div class="card">
+			<div class="side"><img src="https://images.psacard.com/s3/cu-psa/cardfacts/1954-bowman-65-mickey-mantle-26831.jpg?h=1000&format=png&s.roundcorners=10"></div>
+			<div class="side back"><img src="https://blowoutbuzz.files.wordpress.com/2015/12/1954-bowman-mickey-mantle-back.jpg?w=636"></div>
+		  </div>
+		</div>
+    </div>
+    <div class="col-sm-3">
+		<div class="card-container">
+		  <div class="card">
+			<div class="side"><img src="https://images.psacard.com/s3/cu-psa/cardfacts/1962-topps-387-lou-brock-star-rookie-30504.jpg?h=1000&format=png&s.roundcorners=10"></div>
+			<div class="side back"><img src="https://caimages.collectors.com/psaimages/49388/27825702/image_1509307120573.jpg"></div>
+		  </div>
+		</div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card-container">
+		  <div class="card">
+			<div class="side"><img src="https://images.psacard.com/s3/cu-psa/cardfacts/1909-1911-t206-white-border--christy-mathewson-white-cap-21728.jpg?h=1000&format=png&s.roundcorners=10"></div>
+			<div class="side back"><img src="http://milehighcardco.com/ItemImages/000037/37536b_lg.jpeg"></div>
+		  </div>
+		</div>
+    </div>
+	<div class="col-sm-3">
+      <div class="card-container">
+		  <div class="card">
+			<div class="side"><img src="https://i.pinimg.com/originals/f4/6a/63/f46a63654102a1b277db271278ce1bcf.jpg"></div>
+			<div class="side back"><img src="https://www.robertedwardauctions.com/auction/2014/fall/1933-r319-goudey-tris-speaker-copyright-card-2.jpg"></div>
+		  </div>
+		</div>
+    </div>
+  </div>
+    <div class="row">
+    <div class="col-sm-3">
+      <div class="card-container">
+		  <div class="card">
+			<div class="side"><img src="https://images.psacard.com/s3/cu-psa/cardfacts/1954-topps-90-willie-mays-27085.jpg?h=1000&format=png&s.roundcorners=10"></div>
+			<div class="side back"><img src="http://media.liveauctiongroup.net/i/31042/27052990_2.jpg?v=8D48B8D46D31210"></div>
+		  </div>
+		</div>
+    </div>
+    <div class="col-sm-3">
+		<div class="card-container">
+		  <div class="card">
+			<div class="side"><img src="https://images-na.ssl-images-amazon.com/images/I/51a5H7-AdqL.jpg"></div>
+			<div class="side back"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQwcr9fvEqCLFRghOdtGF7oZa8z7u5sXTVBwSiR31y4oUpIYf4MQ"></div>
+		  </div>
+		</div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card-container">
+		  <div class="card">
+			<div class="side"><img src="https://cdn.sportsmemorabilia.com/sports-product-image/1965-topps-400-harmon-killebrew-minnesota-twins-nm-psa-7-graded-baseball-card4-t7788647-1490.jpg"></div>
+			<div class="side back"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7G9f8f24WVe_Xl_iVnRQIDV_tOQa3D91WoEBU1URwKdMRFDVF"></div>
+		  </div>
+		</div>
+    </div>
+	<div class="col-sm-3">
+      <div class="card-container">
+		  <div class="card">
+			<div class="side"><img src="https://images.psacard.com/s3/cu-psa/cardfacts/1933-goudey-160-lou-gehrig-23729.jpg?h=1000&format=png&s.roundcorners=10"></div>
+			<div class="side back"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZB3vf7GHcbqGQYa-Q_YmCxIU2iFMMN1JcJq1SfKxGkQoIuZ5aPA"></div>
+		  </div>
+		</div>
+    </div>
+  </div>
+  </div>
+<script>
+
+
+var index = 0;
+var interval = 2500
+var count = $('.card').length
+setInterval(
+	function() { 
+		flipCard()
+	}, interval
+);
+
+function flipCard() {
+	var prev = index - 1
+	$('.card:eq(' + index + ')').addClass('hover')
+	$('.card:eq(' + prev + ')').removeClass('hover')
+	index++
+}
+</script>
+
+
+</body>
+</html>
